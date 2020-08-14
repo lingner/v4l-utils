@@ -854,7 +854,7 @@ static const struct {
 	const char *name;
 	enum v4l2_mbus_pixelcode code;
 } mbus_formats[] = {
-#include "media-bus-format-names.h"
+//#include "media-bus-format-names.h"
 	{ "FIXED", MEDIA_BUS_FMT_FIXED },
 	{ "Y8", MEDIA_BUS_FMT_Y8_1X8 },
 	{ "Y10", MEDIA_BUS_FMT_Y10_1X10 },
@@ -1104,7 +1104,7 @@ enum v4l2_quantization v4l2_subdev_string_to_quantization(const char *string)
 }
 
 static const enum v4l2_mbus_pixelcode mbus_codes[] = {
-#include "media-bus-format-codes.h"
+//#include "media-bus-format-codes.h"
 };
 
 const enum v4l2_mbus_pixelcode *v4l2_subdev_pixelcode_list(unsigned int *length)
