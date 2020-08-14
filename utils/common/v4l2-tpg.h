@@ -22,7 +22,7 @@ typedef __s16 s16;
 typedef __u8 u8;
 typedef __s8 s8;
 
-#define __packed __attribute__((packed))
+//#define __packed __attribute__((packed))
 #define pr_info printf
 #define noinline
 

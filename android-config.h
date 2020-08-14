@@ -148,6 +148,7 @@
 #include <string.h>
 #include <stdlib.h>
 
+#if 0
 /* Find the first occurrence of C in S or the final NUL byte.  */
 static inline char *strchrnul (const char *s, int c_in)
 {
@@ -283,6 +284,7 @@ static inline char *strchrnul (const char *s, int c_in)
   /* This should never happen.  */
   return NULL;
 }
+#endif
 
 /*
  * Import getsubopt(...) from uClibc version 0.9.33.2 since this feature is
@@ -312,6 +314,7 @@ static inline char *strchrnul (const char *s, int c_in)
 #include <stdlib.h>
 #include <string.h>
 
+#if 0
 /* Parse comma separated suboption from *OPTIONP and match against
    strings in TOKENS.  If found return index and set *VALUEP to
    optional value introduced by an equal sign.  If the suboption is
@@ -360,4 +363,6 @@ getsubopt (char **optionp, char *const *tokens, char **valuep)
 
   return -1;
 }
+#endif
+
 #endif

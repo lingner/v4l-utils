@@ -17,6 +17,8 @@
 
 #include "v4l2-ctl.h"
 
+#include <sys/endian.h>
+
 static struct v4l2_format vfmt;	/* set_format/get_format */
 
 void meta_usage()

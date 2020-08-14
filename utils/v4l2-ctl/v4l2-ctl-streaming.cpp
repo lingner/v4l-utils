@@ -28,6 +28,10 @@
 #include <fwht-ctrls.h>
 
 extern "C" {
+#include "codec-v4l2-fwht.h"
+}
+
+extern "C" {
 #include "v4l2-tpg.h"
 }
 

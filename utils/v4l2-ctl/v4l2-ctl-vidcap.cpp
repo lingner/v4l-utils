@@ -17,6 +17,8 @@
 
 #include "v4l2-ctl.h"
 
+#include <sys/endian.h>
+
 static struct v4l2_frmsizeenum frmsize; /* list frame sizes */
 static struct v4l2_frmivalenum frmival; /* list frame intervals */
 static unsigned set_fmts;
